@@ -1,0 +1,14 @@
+approve
+burn
+buy_erc721
+claim
+deposit
+mint
+multi_route_swap
+remove_liquidity
+swap
+swap_exact_tokens_for_tokens
+transfer
+transferFrom
+transfer_from
+upgrade
