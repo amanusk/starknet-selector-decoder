@@ -2,7 +2,7 @@
 name = "starknet-selector-decoder"
 authors = ["amanusk <amanusk@pm.me>"]
 license = "MIT OR Apache-2.0"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 readme = "README.md"
 repository = "https://github.com/amanusk/starknet-selector-decoder"
@@ -10,7 +10,7 @@ description = """
 Lookup Starknet selectors from hash to string
 """
 keywords = ["starknet", "web3", "cairo"]
-exclude = [".github/**", "wordlist.txt", "remove_dups.sh"]
+exclude = [".github/**", "remove_dups.sh"]
 
 [dependencies]
 phf = { version = "0.11", default-features = false }

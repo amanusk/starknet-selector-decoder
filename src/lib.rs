@@ -22,11 +22,24 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_selectors() {
+    fn test_transfer() {
         let result =
             get_selector("0x0083afd3f4caedc6eebf44246fe54e38c95e3179a5ec9ea81740eca5b482d12e");
         match result {
             Some(selector) => assert_eq!(selector, "transfer"),
+            None => assert!(false),
+        }
+    }
+
+    #[test]
+    fn test_approve() {
+        let result =
+            get_selector("0x0219209e083275171774dab1df80982e9df2096516f06319c5c6d71ae0a8480c");
+        if let Some(selector) = result {
+            println!("{}", selector);
+        }
+        match result {
+            Some(selector) => assert_eq!(selector, "approve"),
             None => assert!(false),
         }
     }
