@@ -10,7 +10,7 @@ description = """
 Lookup Starknet selectors from hash to string
 """
 keywords = ["starknet", "web3", "cairo"]
-exclude = [".github/**"]
+exclude = [".github/**", "wordlist.txt", "remove_dups.sh"]
 
 [dependencies]
 phf = { version = "0.11", default-features = false }
